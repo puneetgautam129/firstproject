@@ -1,0 +1,247 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+
+
+h1{color: pink;
+   padding-left: 200px;
+   margin-top: 40px;
+ }
+
+ .nava{color: white;
+  padding-left: 60px;}
+ 
+ .nava:hover{text-decoration: none;
+  color: #989898;}
+
+ .web{ position: sticky;
+      top: 0;
+      z-index: 100;
+   }
+
+.mobile{display: none;}
+
+.section{ 
+    position: absolute;
+    color: white;
+    margin-top: -411px;
+    margin-left: 207px;
+    font-size: 1.5rem;
+    display:table-row-group ; }
+
+.h3one{margin-top: 100px;
+       font-size: 35px;
+       color: red;} 
+
+
+.pone{font-size: 20px;
+      margin-top: 50px;
+      margin-right: 100px;} 
+
+.ptwo{text-align: center;
+      padding-top: 20px;
+      margin-right:100px ;
+      margin-left:100px;
+      padding-bottom: 50px;}
+
+
+@media screen and (max-width: 768px) {
+  .web{display: none;}
+    
+  .mobile{display: block;
+          position: sticky;
+          top: 0;
+          z-index: 10;}
+
+
+ .pone{font-size: 15px;
+     margin-top: 30px;
+     margin-right: 50px;} 
+
+ .ptwo{text-align: center;
+    padding-top: 10px;
+    margin-right:50px ;
+    margin-left:50px;
+    padding-bottom: 10px;}
+
+
+ .section{ 
+    position: absolute;
+    color: white;
+    margin-top: -411px;
+    margin-left: 0px;
+    font-size: 1.5rem;
+    display:table-row-group ; }
+ 
+   
+   
+}
+
+
+
+
+ .img1{ 
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top;
+      width: 100%;
+      height: 37rem;
+      opacity: 1;
+      z-index: 20;
+      visibility: inherit; 
+      background-image: url('https://wallpapercave.com/wp/wp2646303.jpg');
+  }
+
+
+
+
+
+
+ .btn2:hover{background-color: #989898;}
+
+ .btn3{ background-color: transparent;
+       border-color: red;
+       color: red;
+       width: 180px;
+       height: 50px;
+       margin-top: 20px;
+       text-align: center; }
+
+ .laptop{margin-top: 100px;}
+
+ .btn4{background-color: transparent;
+       border-color: white;
+       color: white;
+       width: 180px;
+       height: 50px;
+       margin-top: 20px;}
+
+ .btn5{background-color: transparent;
+       color: white;
+       border-color: white;
+       width: 180px;
+       height: 50px;
+       margin-bottom: 200px;
+       margin-left: -500px;
+      }  
+
+.cardimg{width: auto;}
+
+@media screen and (max-width: 768px) {
+  .cardimg{width: inherit;}
+
+  .img1{ 
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center top;
+      width: 100%;
+      height: 22rem;
+      opacity: 1;
+      visibility: inherit;
+      z-index: 20;
+      background-image: url('https://wallpapercave.com/wp/wp2646303.jpg');
+  }
+
+  .cont{margin-left: -500px;
+        font-size: 30px;}
+
+  .btn5{background-color: transparent;
+       color: white;
+       border-color: white;
+       width: 180px;
+       height: 50px;
+       margin-bottom: 200px;margin-left: -500px;
+   } 
+
+} 
+
+
+ 
+
+ .overlay {
+  height: 93%;
+  width: 0;
+  position: fixed;
+  z-index: 100;
+  top: 60px;
+  left: 0;
+  background-color: whitesmoke;
+  
+  overflow-x: hidden;
+  transition: 0.5s;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.overlay-content {
+  position: relative;
+  top: 0%;
+  width: 100%;
+  text-align: center;
+}
+
+
+.overlay a {
+      padding: 8px;
+    text-decoration: none;
+    font-size: 21px;
+    color: red;
+    display: block;
+    transition: 0.3s;}
+
+.cont{margin-left: -500px;
+ font-size: 30px;}
+
+
+
+.coverimage{
+  
+
+
+
+    top:0;
+    background-repeat: no-repeat;
+    background-image: url('<?php echo base_url('assets/images/hotel-websites-inspiring-guests-to-book.jpg') ?>');
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 37rem;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+
+}
+
+.content{
+    position: absolute;
+    bottom: 43%;
+    margin-left: 144px;
+    color: red;
+    text-shadow: 2px 1px grey;
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+  .coverimage{
+    background-repeat: no-repeat;
+    background-image: url('<?php echo base_url('assets/images/hotel-websites-inspiring-guests-to-book.jpg') ?>');
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 22rem;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+
+  }
+
+  .content{
+    position: absolute;
+    bottom: 65%;
+    margin-left: 33px;
+    color: red;
+    text-shadow: 2px 1px grey;
+  }
+
+
+}
+
+
